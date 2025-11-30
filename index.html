@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Netplayz • Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-900">
+  <!-- Header -->
+  <header class="max-w-5xl mx-auto p-6 flex items-center justify-between">
+    <div>
+      <h1 class="text-2xl font-extrabold">Netplayz</h1>
+      <p class="text-sm text-slate-600">Developer • Designer • CISO-ish (Baysn)</p>
+    </div>
+    <nav class="space-x-4 hidden md:block">
+      <a href="#projects" class="text-sm hover:underline">Projects</a>
+      <a href="#skills" class="text-sm hover:underline">Skills</a>
+      <a href="#contact" class="text-sm hover:underline">Contact</a>
+    </nav>
+  </header>
+
+  <main class="max-w-5xl mx-auto p-6">
+    <!-- Hero -->
+    <section class="bg-white rounded-2xl p-8 shadow-sm mb-8">
+      <div class="md:flex md:items-center md:justify-between">
+        <div>
+          <h2 class="text-4xl font-extrabold mb-2">Hi — I’m Netplayz.</h2>
+          <p class="text-lg text-slate-700 mb-4">
+            I build playful-yet-practical web tools, Linux builds, and automation that saves time. I love clean
+            design, oddly-specific engineering challenges, and building free community tools.
+          </p>
+          <div class="flex gap-3">
+            <a href="#projects" class="inline-block px-4 py-2 rounded-lg bg-slate-900 text-white font-medium">
+              View projects
+            </a>
+            <a href="#contact" class="inline-block px-4 py-2 rounded-lg border border-slate-200">
+              Get in touch
+            </a>
+          </div>
+        </div>
+
+        <div class="mt-6 md:mt-0 flex items-center justify-center">
+          <div class="w-40 h-40 bg-gradient-to-tr from-slate-800 to-slate-600 rounded-full shadow-lg flex items-center justify-center text-white text-sm font-bold">
+            NetByte
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="mb-8">
+      <h3 class="text-2xl font-bold mb-4">Highlighted projects</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <article class="bg-white rounded-xl p-4 shadow-sm">
+          <h4 class="font-semibold text-lg">ERLC Livery Editor</h4>
+          <p class="text-sm text-slate-600 my-2">A free web-based editor with drag-and-drop, Three.js 3D preview and export tools.</p>
+          <div class="flex flex-wrap gap-2 mb-3">
+            <span class="text-xs px-2 py-1 border rounded-full text-slate-700">React</span>
+            <span class="text-xs px-2 py-1 border rounded-full text-slate-700">Three.js</span>
+            <span class="text-xs px-2 py-1 border rounded-full text-slate-700">Canvas</span>
+          </div>
+          <a href="#" class="text-sm font-medium text-slate-900 hover:underline">View project →</a>
+        </article>
+
+        <article class="bg-white rounded-xl p-4 shadow-sm">
+          <h4 class="font-semibold text-lg">NexaOS Branding</h4>
+          <p class="text-sm text-slate-600 my-2">Visual identity and installer assets for a Debian-based Linux distribution.</p>
+          <div class="flex flex-wrap gap-2 mb-3">
+            <span class="text-xs px-2 py-1 border rounded-full text-slate-700">Linux</span>
+            <span class="text-xs px-2 py-1 border rounded-full text-slate-700">Branding</span>
+            <span class="text-xs px-2 py-1 border rounded-full text-slate-700">Installer</span>
+          </div>
+          <a href="#" class="text-sm font-medium text-slate-900 hover:underline">View project →</a>
+        </article>
+
+        <article class="bg-white rounded-xl p-4 shadow-sm">
+          <h4 class="font-semibold text-lg">Discord Automation Bot</h4>
+          <p class="text-sm text-slate-600 my-2">Creates channels, roles, and permissions automatically for server setups.</p>
+          <div class="flex flex-wrap gap-2 mb-3">
+            <span class="text-xs px-2 py-1 border rounded-full text-slate-700">Discord.py</span>
+            <span class="text-xs px-2 py-1 border rounded-full text-slate-700">Automation</span>
+          </div>
+          <a href="#" class="text-sm font-medium text-slate-900 hover:underline">View project →</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="mb-8 bg-white p-6 rounded-xl shadow-sm">
+      <h3 class="text-xl font-bold mb-3">Skills</h3>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="bg-white p-3 rounded-lg shadow-sm">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-sm font-medium">React</span><span class="text-xs text-slate-500">90%</span>
+          </div>
+          <div class="w-full h-2 bg-slate-100 rounded-full overflow-hidden"><div class="h-full bg-slate-800" style="width:90%"></div></div>
+        </div>
+
+        <div class="bg-white p-3 rounded-lg shadow-sm">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-sm font-medium">Three.js</span><span class="text-xs text-slate-500">70%</span>
+          </div>
+          <div class="w-full h-2 bg-slate-100 rounded-full overflow-hidden"><div class="h-full bg-slate-800" style="width:70%"></div></div>
+        </div>
+
+        <div class="bg-white p-3 rounded-lg shadow-sm">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-sm font-medium">Tailwind</span><span class="text-xs text-slate-500">85%</span>
+          </div>
+          <div class="w-full h-2 bg-slate-100 rounded-full overflow-hidden"><div class="h-full bg-slate-800" style="width:85%"></div></div>
+        </div>
+
+        <div class="bg-white p-3 rounded-lg shadow-sm">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-sm font-medium">Linux</span><span class="text-xs text-slate-500">90%</span>
+          </div>
+          <div class="w-full h-2 bg-slate-100 rounded-full overflow-hidden"><div class="h-full bg-slate-800" style="width:90%"></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="mb-8">
+      <h3 class="text-xl font-bold mb-3">About</h3>
+      <div class="bg-white p-6 rounded-xl shadow-sm text-slate-700">
+        <p>
+          I build tools people use. My work includes free utilities for ERLC liveries, distro customization, and
+          Discord automation. When I’m not coding, I’m designing or solving weirdly-specific technical problems.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="mb-12 bg-white p-6 rounded-xl shadow-sm">
+      <h3 class="text-xl font-bold mb-3">Contact</h3>
+      <p class="text-slate-700 mb-4">Email: <a href="mailto:hello@netplayz.example" class="text-slate-900 font-medium">hello@netplayz.example</a></p>
+      <p class="text-slate-700">Or message me on Discord for collaboration or project help.</p>
+    </section>
+
+    <footer class="text-center text-sm text-slate-500 py-6">© <span id="year"></span> Netplayz — Built with ❤️</footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
