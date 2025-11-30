@@ -53,33 +53,33 @@
       <h3 class="text-2xl font-bold mb-4">Highlighted projects</h3>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
         <article class="bg-white rounded-xl p-4 shadow-sm">
-          <h4 class="font-semibold text-lg">ERLC Livery Editor</h4>
-          <p class="text-sm text-slate-600 my-2">A free web-based editor with drag-and-drop, Three.js 3D preview and export tools.</p>
+          <h4 class="font-semibold text-lg">ERM Community Edition Developer</h4>
+          <p class="text-sm text-slate-600 my-2">Free even when the end of time comes!</p>
           <div class="flex flex-wrap gap-2 mb-3">
-            <span class="text-xs px-2 py-1 border rounded-full text-slate-700">React</span>
-            <span class="text-xs px-2 py-1 border rounded-full text-slate-700">Three.js</span>
-            <span class="text-xs px-2 py-1 border rounded-full text-slate-700">Canvas</span>
+            <span class="text-xs px-2 py-1 border rounded-full text-slate-700">ERLC</span>
+            <span class="text-xs px-2 py-1 border rounded-full text-slate-700">Python</span>
+            <span class="text-xs px-2 py-1 border rounded-full text-slate-700">Github</span>
           </div>
-          <a href="#" class="text-sm font-medium text-slate-900 hover:underline">View project →</a>
+          <a href="https://github.com/HueyMcSpewy/erm-ce" class="text-sm font-medium text-slate-900 hover:underline">View project →</a>
         </article>
 
         <article class="bg-white rounded-xl p-4 shadow-sm">
-          <h4 class="font-semibold text-lg">NexaOS Branding</h4>
-          <p class="text-sm text-slate-600 my-2">Visual identity and installer assets for a Debian-based Linux distribution.</p>
+          <h4 class="font-semibold text-lg">Ethical Hacking</h4>
+          <p class="text-sm text-slate-600 my-2">Working with universities like Princeton and Columbia to secure their networks from black hats.</p>
           <div class="flex flex-wrap gap-2 mb-3">
-            <span class="text-xs px-2 py-1 border rounded-full text-slate-700">Linux</span>
-            <span class="text-xs px-2 py-1 border rounded-full text-slate-700">Branding</span>
-            <span class="text-xs px-2 py-1 border rounded-full text-slate-700">Installer</span>
+            <span class="text-xs px-2 py-1 border rounded-full text-slate-700">Hacking</span>
+            <span class="text-xs px-2 py-1 border rounded-full text-slate-700">White Hat</span>
+            <span class="text-xs px-2 py-1 border rounded-full text-slate-700">Edcuation</span>
           </div>
-          <a href="#" class="text-sm font-medium text-slate-900 hover:underline">View project →</a>
+          <a href="https://www.math.princeton.edu/" class="text-sm font-medium text-slate-900 hover:underline">View project →</a>
         </article>
 
         <article class="bg-white rounded-xl p-4 shadow-sm">
-          <h4 class="font-semibold text-lg">Discord Automation Bot</h4>
-          <p class="text-sm text-slate-600 my-2">Creates channels, roles, and permissions automatically for server setups.</p>
+          <h4 class="font-semibold text-lg">Linux Experience</h4>
+          <p class="text-sm text-slate-600 my-2">A years worth of experience with Ubuntu and a little bit of Arch Linux.</p>
           <div class="flex flex-wrap gap-2 mb-3">
-            <span class="text-xs px-2 py-1 border rounded-full text-slate-700">Discord.py</span>
-            <span class="text-xs px-2 py-1 border rounded-full text-slate-700">Automation</span>
+            <span class="text-xs px-2 py-1 border rounded-full text-slate-700">Pacman</span>
+            <span class="text-xs px-2 py-1 border rounded-full text-slate-700">APT</span>
           </div>
           <a href="#" class="text-sm font-medium text-slate-900 hover:underline">View project →</a>
         </article>
@@ -92,21 +92,21 @@
       <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
         <div class="bg-white p-3 rounded-lg shadow-sm">
           <div class="flex items-center justify-between mb-2">
-            <span class="text-sm font-medium">React</span><span class="text-xs text-slate-500">90%</span>
+            <span class="text-sm font-medium">Ethical Hacking</span><span class="text-xs text-slate-500">90%</span>
           </div>
           <div class="w-full h-2 bg-slate-100 rounded-full overflow-hidden"><div class="h-full bg-slate-800" style="width:90%"></div></div>
         </div>
 
         <div class="bg-white p-3 rounded-lg shadow-sm">
           <div class="flex items-center justify-between mb-2">
-            <span class="text-sm font-medium">Three.js</span><span class="text-xs text-slate-500">70%</span>
+            <span class="text-sm font-medium">Python</span><span class="text-xs text-slate-500">70%</span>
           </div>
           <div class="w-full h-2 bg-slate-100 rounded-full overflow-hidden"><div class="h-full bg-slate-800" style="width:70%"></div></div>
         </div>
 
         <div class="bg-white p-3 rounded-lg shadow-sm">
           <div class="flex items-center justify-between mb-2">
-            <span class="text-sm font-medium">Tailwind</span><span class="text-xs text-slate-500">85%</span>
+            <span class="text-sm font-medium">Social Engineering</span><span class="text-xs text-slate-500">85%</span>
           </div>
           <div class="w-full h-2 bg-slate-100 rounded-full overflow-hidden"><div class="h-full bg-slate-800" style="width:85%"></div></div>
         </div>
@@ -125,8 +125,8 @@
       <h3 class="text-xl font-bold mb-3">About</h3>
       <div class="bg-white p-6 rounded-xl shadow-sm text-slate-700">
         <p>
-          I build tools people use. My work includes free utilities for ERLC liveries, distro customization, and
-          Discord automation. When I’m not coding, I’m designing or solving weirdly-specific technical problems.
+          I build tools people use. My work includes free utilities for ERLC bots, saving people from data breaches, and
+          Discord bots. When I’m not coding, I’m designing or solving weirdly-specific technical problems.
         </p>
       </div>
     </section>
@@ -134,11 +134,11 @@
     <!-- Contact -->
     <section id="contact" class="mb-12 bg-white p-6 rounded-xl shadow-sm">
       <h3 class="text-xl font-bold mb-3">Contact</h3>
-      <p class="text-slate-700 mb-4">Email: <a href="mailto:hello@netplayz.example" class="text-slate-900 font-medium">hello@netplayz.example</a></p>
+      <p class="text-slate-700 mb-4">Email: <a href="mailto:netplayz@programmer.net" class="text-slate-900 font-medium">netplayz@programmer.net</a></p>
       <p class="text-slate-700">Or message me on Discord for collaboration or project help.</p>
     </section>
 
-    <footer class="text-center text-sm text-slate-500 py-6">© <span id="year"></span> Netplayz — Built with ❤️</footer>
+    <footer class="text-center text-sm text-slate-500 py-6">© <span id="year"></span> Netplayz — Built with love, the holy bible, caffeine, and 3 hours of sleep :3</footer>
   </main>
 
   <script>
